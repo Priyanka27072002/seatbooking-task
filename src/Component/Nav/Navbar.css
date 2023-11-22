@@ -1,0 +1,27 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    background-color: #d84f57;
+    color: #fff;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.col,.col-2{
+    display: flex;
+    
+}
+.col-2 p,.col p{
+    padding: 10px;
+}
+.col-2 p{
+    font-size: 14px;
+}
+.head-icon{
+    padding: 10px;
+}

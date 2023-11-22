@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width:90%;
+    margin: auto;
+}
+.bus-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.bus-info{
+    margin-top: 4%;
+    padding: 2%;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.bus-info:hover{
+    box-shadow: 0 0 5px rgb(193, 189, 189);
+    border-radius: 10px;
+}
+.bus-btn{
+    text-align: end;
+}
+.bus-btn button{
+    background-color:#d84f57;
+    padding: 5px;
+    border:none;
+    color: #fff;
+}
+.seat-row{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.seat-col{
+    width:5%;
+    margin: 16px;
+    padding: 5px;
+}
+.seat-card{
+    border: 1px solid rgb(114, 109, 109);
+    padding: 20px;
+    border-radius: 5px;
+}
+.seat-btn{
+    text-align: center;
+}
+.bus-rating{
+    background-color: green;
+    color: #fff;
+    padding: 3px;
+    border-radius: 3px;
+}
+.bus-inr{
+    display: flex;
+}
+.seat{
+    display: flex;
+}
+.seat-amount{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 30%;
+    padding-top: 5%;
+    margin: 10px;
+}
+.seat-amount p{
+    text-align: center;
+  
+}
